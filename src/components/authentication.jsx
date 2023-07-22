@@ -11,6 +11,7 @@ const Authentication = (props) => {
     const dispatch = useDispatch()
     const [inputCardNumber, setCardNumber] = useState("")
     const [cardNumberValidation, setCardNumberValidation] = useState("")
+    console.log("cardNumber",inputCardNumber)
 
     useEffect(() => {
         if (accountDetails) {
