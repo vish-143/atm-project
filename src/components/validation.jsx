@@ -1,3 +1,2 @@
-const greet=()=>{
-    console.log("Hai")
-}
+const validation=()=>{
+    console.log("validation")}
