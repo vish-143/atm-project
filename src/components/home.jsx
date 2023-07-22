@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux"
 
-const Home = (props) => {
+ export default function Home (props){
 
     const { history } = props
     const accNo = useSelector(state => state.accountNumber)
@@ -26,4 +26,3 @@ const Home = (props) => {
         </div>
     )
 }
-export default Home

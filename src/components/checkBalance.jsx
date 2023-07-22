@@ -21,14 +21,9 @@ const CheckBalance = (props) => {
             checkPinNumber()
         }
     }
-
     const checkPinNumber = () => {
-
         if (pinNumber === accountHolderName.pin.toString()) {
             setIsValid(true)
-            // dispatch(authentication(false))
-            // dispatch(accountNumber(""))
-            // history.push("/")
         }
         else {
             setPinValidation("Incorrect Pin")
